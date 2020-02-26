@@ -9,6 +9,8 @@ git clone https://github.com/jas502n/BurpSuite_Pro_v1.7.37
 git clone https://github.com/interference-security/kali-windows-binaries
 git clone --recurse-submodules https://github.com/aas-n/spraykatz.git
 python3.7 -m pip install lsassy
+https://github.com/byt3bl33d3r/SprayingToolkit
+pip3 install -r SprayingToolkit/requirements.txt
 sudo pip3 install -r spraykatz/requirements.txt
 pip3 install pypykatz
 wget https://download.sysinternals.com/files/SysinternalsSuite.zip
@@ -22,7 +24,7 @@ rm packages-microsoft-prod.deb
 apt-get update
 apt-get install apt-transport-https
 apt-get update
-apt-get install dotnet-sdk-2.2 install dotnet-runtime-2.2
+apt-get install dotnet-sdk-2.2 dotnet-runtime-2.2
 git clone --recurse-submodules https://github.com/cobbr/Covenant
 cd Covenant/Covenant
 dotnet build
