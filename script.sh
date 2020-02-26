@@ -1,4 +1,4 @@
-sudo apt install python2-pip net-tools strace ltrace gdb radare2 binwalk
+sudo apt install python3-pip net-tools strace ltrace gdb radare2 binwalk
 sudo pip install crackmapexec ROPgadget
 git clone https://github.com/longld/peda.git ~/peda
 echo "source ~/peda/peda.py" >> ~/.gdbinit
