@@ -13,6 +13,7 @@ https://github.com/byt3bl33d3r/SprayingToolkit
 pip3 install -r SprayingToolkit/requirements.txt
 sudo pip3 install -r spraykatz/requirements.txt
 pip3 install pypykatz
+pip3 install updog
 wget https://download.sysinternals.com/files/SysinternalsSuite.zip
 wget https://github.com/PowerShell/Win32-OpenSSH/releases/download/v8.0.0.0p1-Beta/OpenSSH-Win32.zip
 wget https://github.com/PowerShell/Win32-OpenSSH/releases/download/v8.0.0.0p1-Beta/OpenSSH-Win64.zip
