@@ -26,6 +26,9 @@ apt-get install apt-transport-https
 apt-get update
 apt-get install dotnet-sdk-2.2 dotnet-runtime-2.2
 git clone --recurse-submodules https://github.com/cobbr/Covenant
+rm -r dist
+rm -r build
+rm -r Sublist3r.egg-info
 cd Covenant/Covenant
 dotnet build
 echo "DONE"
