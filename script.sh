@@ -19,6 +19,9 @@ wget https://resources.bishopfox.com/files/tools/firecat/Firecat_v1.6-Win_Binari
 wget https://resources.bishopfox.com/files/tools/firecat/Firecat_v1.6-Unix_Binaries.zip
 wget https://github.com/PowerShell/Win32-OpenSSH/releases/download/v8.0.0.0p1-Beta/OpenSSH-Win32.zip
 wget https://github.com/PowerShell/Win32-OpenSSH/releases/download/v8.0.0.0p1-Beta/OpenSSH-Win64.zip
+wget https://github.com/Peltoche/lsd/releases/download/0.16.0/lsd_0.16.0_amd64.deb
+dpkg -i lsd_0.16.0_amd64.deb
+rm lsd_0.16.0_amd64.deb
 wget https://github.com/ffuf/ffuf/releases/download/v1.0.2/ffuf_1.0.2_linux_amd64.tar.gz
 echo 'alias ls=lsd' >> .bashrc
 wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
