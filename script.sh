@@ -1,4 +1,4 @@
-sudo apt install python3-pip net-tools strace ltrace gdb radare2 binwalk
+sudo apt install python3-pip net-tools strace ltrace gdb radare2 binwalk cifs-utils
 sudo pip install crackmapexec ROPgadget
 git clone https://github.com/longld/peda.git ~/peda
 echo "source ~/peda/peda.py" >> ~/.gdbinit
@@ -18,6 +18,8 @@ pip3 install updog
 wget https://download.sysinternals.com/files/SysinternalsSuite.zip
 wget https://netix.dl.sourceforge.net/project/miniweb/miniweb/0.8/miniweb-win32-20130309.zip
 wget https://resources.bishopfox.com/files/tools/firecat/Firecat_v1.6-Win_Binaries.zip
+git clone https://github.com/nikallass/sharesearch
+pip3 install -r sharesearch/requirements.txt
 wget https://resources.bishopfox.com/files/tools/firecat/Firecat_v1.6-Unix_Binaries.zip
 wget https://github.com/PowerShell/Win32-OpenSSH/releases/download/v8.0.0.0p1-Beta/OpenSSH-Win32.zip
 wget https://github.com/PowerShell/Win32-OpenSSH/releases/download/v8.0.0.0p1-Beta/OpenSSH-Win64.zip
