@@ -17,6 +17,7 @@ sudo pip3 install -r spraykatz/requirements.txt
 pip3 install pypykatz
 pip3 install updog
 wget https://download.sysinternals.com/files/SysinternalsSuite.zip
+wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64
 wget https://netix.dl.sourceforge.net/project/miniweb/miniweb/0.8/miniweb-win32-20130309.zip
 wget https://resources.bishopfox.com/files/tools/firecat/Firecat_v1.6-Win_Binaries.zip
 git clone https://github.com/nikallass/sharesearch
