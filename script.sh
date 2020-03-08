@@ -9,6 +9,8 @@ git clone https://github.com/SecureAuthCorp/impacket
 git clone https://github.com/lgandx/Responder
 git clone https://github.com/jas502n/BurpSuite_Pro_v1.7.37
 git clone https://github.com/interference-security/kali-windows-binaries
+git clone https://github.com/klsecservices/rpivot
+wget https://github.com/klsecservices/rpivot/releases/download/v1.0/client.exe -O rpivot/client.exe
 git clone --recurse-submodules https://github.com/aas-n/spraykatz.git
 python3.7 -m pip install lsassy
 https://github.com/byt3bl33d3r/SprayingToolkit
