@@ -1,3 +1,4 @@
+sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y
 sudo apt install python3-pip net-tools strace ltrace gdb radare2 binwalk cifs-utils -y
 sudo pip install crackmapexec ROPgadget
 git clone https://github.com/longld/peda.git ~/peda
