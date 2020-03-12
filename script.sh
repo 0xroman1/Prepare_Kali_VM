@@ -5,6 +5,7 @@ echo "source ~/peda/peda.py" >> ~/.gdbinit
 git clone https://github.com/aboul3la/Sublist3r.git
 apt install mingw-w64
 sudo python3 Sublist3r/setup.py install
+wget https://netix.dl.sourceforge.net/project/icmpshell/ish/v0.2/ish-v0.2.tar.gz
 git clone https://github.com/SecureAuthCorp/impacket
 git clone https://github.com/lgandx/Responder
 git clone https://github.com/jas502n/BurpSuite_Pro_v1.7.37
