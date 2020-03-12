@@ -1,9 +1,9 @@
-sudo apt install python3-pip net-tools strace ltrace gdb radare2 binwalk cifs-utils
+sudo apt install python3-pip net-tools strace ltrace gdb radare2 binwalk cifs-utils -y
 sudo pip install crackmapexec ROPgadget
 git clone https://github.com/longld/peda.git ~/peda
 echo "source ~/peda/peda.py" >> ~/.gdbinit
 git clone https://github.com/aboul3la/Sublist3r.git
-apt install mingw-w64
+apt install mingw-w64 -y
 sudo python3 Sublist3r/setup.py install
 wget https://netix.dl.sourceforge.net/project/icmpshell/ish/v0.2/ish-v0.2.tar.gz
 git clone https://github.com/SecureAuthCorp/impacket
@@ -45,9 +45,9 @@ wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-pr
 dpkg -i packages-microsoft-prod.deb
 rm packages-microsoft-prod.deb
 apt-get update
-apt-get install apt-transport-https
+apt-get install apt-transport-https -y
 apt-get update
-apt-get install dotnet-sdk-2.2 dotnet-runtime-2.2
+apt-get install dotnet-sdk-2.2 dotnet-runtime-2.2 -y
 git clone --recurse-submodules https://github.com/cobbr/Covenant
 rm -r dist
 rm -r build
