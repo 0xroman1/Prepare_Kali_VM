@@ -8,6 +8,10 @@ sudo python3 Sublist3r/setup.py install
 wget https://netix.dl.sourceforge.net/project/icmpshell/ish/v0.2/ish-v0.2.tar.gz
 git clone https://github.com/SecureAuthCorp/impacket
 git clone https://github.com/lgandx/Responder
+git clone https://github.com/Kevin-Robertson/Invoke-TheHash
+git clone https://github.com/the-xentropy/xencrypt
+git clone https://github.com/mgeeky/Stracciatella
+wget https://raw.githubusercontent.com/hackabean/ADModule/master/ADModule.exe
 git clone https://github.com/jas502n/BurpSuite_Pro_v1.7.37
 git clone https://github.com/interference-security/kali-windows-binaries
 git clone https://github.com/klsecservices/rpivot
