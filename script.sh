@@ -9,6 +9,11 @@ apt install mingw-w64 -y
 sudo python3 Sublist3r/setup.py install
 wget https://netix.dl.sourceforge.net/project/icmpshell/ish/v0.2/ish-v0.2.tar.gz
 git clone https://github.com/SecureAuthCorp/impacket
+git clone https://github.com/Wh1t3Rh1n0/air-hammer
+pip install wpa_supplicant
+git clone https://github.com/s0lst1c3/eaphammer
+sudo ~/eaphammer/kali-setup
+git clone https://github.com/oblique/create_ap
 git clone https://github.com/kimocoder/wifite2
 sudo python3 wifite2/setup.py install
 git clone https://github.com/lgandx/Responder
