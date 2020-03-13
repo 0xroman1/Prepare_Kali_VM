@@ -9,6 +9,8 @@ apt install mingw-w64 -y
 sudo python3 Sublist3r/setup.py install
 wget https://netix.dl.sourceforge.net/project/icmpshell/ish/v0.2/ish-v0.2.tar.gz
 git clone https://github.com/SecureAuthCorp/impacket
+git clone https://github.com/kimocoder/wifite2
+sudo python wifite2/setup.py install
 git clone https://github.com/lgandx/Responder
 git clone https://github.com/Kevin-Robertson/Invoke-TheHash
 git clone https://github.com/the-xentropy/xencrypt
