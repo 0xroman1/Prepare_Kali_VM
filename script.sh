@@ -17,6 +17,8 @@ git clone https://github.com/oblique/create_ap
 git clone https://github.com/kimocoder/wifite2
 sudo python3 wifite2/setup.py install
 git clone https://github.com/lgandx/Responder
+git clone https://github.com/BC-SECURITY/Empire
+sudo /root/Empire/setup/install.sh
 git clone https://github.com/Kevin-Robertson/Invoke-TheHash
 git clone https://github.com/the-xentropy/xencrypt
 git clone https://github.com/mgeeky/Stracciatella
