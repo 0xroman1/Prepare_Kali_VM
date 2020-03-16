@@ -18,6 +18,7 @@ git clone https://github.com/kimocoder/wifite2
 sudo python3 wifite2/setup.py install
 git clone https://github.com/lgandx/Responder
 git clone https://github.com/BC-SECURITY/Empire
+wget https://github.com/gentilkiwi/mimikatz/releases/download/2.2.0-20200308-1/mimikatz_trunk.7z
 sudo /root/Empire/setup/install.sh
 git clone https://github.com/Kevin-Robertson/Invoke-TheHash
 git clone https://github.com/the-xentropy/xencrypt
