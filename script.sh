@@ -31,7 +31,7 @@ wget https://github.com/klsecservices/rpivot/releases/download/v1.0/client.exe -
 git clone --recurse-submodules https://github.com/aas-n/spraykatz.git
 git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries
 python3.7 -m pip install lsassy
-https://github.com/byt3bl33d3r/SprayingToolkit
+git clone https://github.com/byt3bl33d3r/SprayingToolkit
 pip3 install -r SprayingToolkit/requirements.txt
 sudo pip3 install -r spraykatz/requirements.txt
 pip3 install pypykatz
