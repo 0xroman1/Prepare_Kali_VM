@@ -30,6 +30,11 @@ git clone https://github.com/mgeeky/Stracciatella
 wget https://raw.githubusercontent.com/hackabean/ADModule/master/ADModule.exe
 git clone https://github.com/jas502n/BurpSuite_Pro_v1.7.37
 git clone https://github.com/interference-security/kali-windows-binaries
+git clone https://github.com/itm4n/PrivescCheck
+git clone https://github.com/Kitsun3Sec/powersub
+git clone https://github.com/S3cur3Th1sSh1t/PowerSharpPack
+git clone https://github.com/ReddyyZ/GhostShell/
+gem install evil-winrm
 git clone https://github.com/klsecservices/rpivot
 wget https://github.com/klsecservices/rpivot/releases/download/v1.0/client.exe -O rpivot/client.exe
 git clone --recurse-submodules https://github.com/aas-n/spraykatz.git
