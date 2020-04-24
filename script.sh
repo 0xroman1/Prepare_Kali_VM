@@ -13,6 +13,9 @@ sudo python3 Sublist3r/setup.py install
 wget https://netix.dl.sourceforge.net/project/icmpshell/ish/v0.2/ish-v0.2.tar.gz
 git clone https://github.com/SecureAuthCorp/impacket
 git clone https://github.com/Wh1t3Rh1n0/air-hammer
+git clone https://github.com/checkymander/Sharp-SMBExec
+git clone https://github.com/checkymander/Sharp-WMIExec
+git clone https://github.com/rasta-mouse/MiscTools
 git clone https://github.com/FortyNorthSecurity/C2concealer
 /root/C2concelaer/install.sh
 pip install wpa_supplicant
