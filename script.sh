@@ -1,6 +1,6 @@
 sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y
 sudo apt install realtek-rtl88xxau-dkms -y
-sudo apt install python3-pip crackmapexec net-tools strace tmux ltrace gdb radare2 binwalk cifs-utils mono-complete bloodhound gnome-terminal libexpat1:i386 libncurses5:i386 libtinfo5:i386 libreadline5:i386 -y
+sudo apt install python3-pip crackmapexec net-tools strace tmux ltrace autoconf gdb radare2 binwalk cifs-utils mono-complete bloodhound gnome-terminal libexpat1:i386 libncurses5:i386 libtinfo5:i386 libreadline5:i386 -y
 sudo pip install ROPgadget
 git clone https://github.com/tmux-plugins/tmux-logging
 wget https://raw.githubusercontent.com/trickster0/Prepare_Kali_VM/master/.tmux.conf
