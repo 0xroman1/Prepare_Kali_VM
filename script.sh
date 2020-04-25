@@ -1,3 +1,4 @@
+dpkg --add-architecture i386
 sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y
 sudo apt install realtek-rtl88xxau-dkms -y
 sudo apt install python3-pip crackmapexec net-tools strace tmux ltrace autoconf gdb radare2 binwalk cifs-utils mono-complete bloodhound gnome-terminal libexpat1:i386 libncurses5:i386 libtinfo5:i386 libreadline5:i386 -y
