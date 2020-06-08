@@ -7,6 +7,7 @@ git clone https://github.com/tmux-plugins/tmux-logging
 wget https://raw.githubusercontent.com/trickster0/Prepare_Kali_VM/master/.tmux.conf
 wget https://github.com/TheCreatorJames/DotNetCompressor/files/191021/NetCompressor.zip
 git clone https://github.com/longld/peda.git ~/peda
+git clone https://github.com/Flangvik/NetLoader
 echo "source ~/peda/peda.py" >> ~/.gdbinit
 git clone https://github.com/aboul3la/Sublist3r.git
 apt install mingw-w64 -y
